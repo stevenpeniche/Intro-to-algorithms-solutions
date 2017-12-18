@@ -1,0 +1,49 @@
+WHAT TO WEAR?
+- Put on underwear
+- Put on pants
+- Put on belt
+- Put on t-shirt
+- Check weather(weather)
+	- IF weather is between 60 and 70 degrees THEN
+		-	Wear Sweater
+	- ELSIF weather is between 50 and 60 degrees THEN
+		-	Wear Jacket
+	- ELSIF weather is less than 50 THEN
+		-	Wear Coat
+	ENDIF
+
+	- IF raining THEN
+		- Grab Umbrella
+	ENDIF
+END
+- You're dressed!
+
+
+GET A CUP OF WATER
+- Get up
+- Walk to kitchen
+- Open cabinet
+- Pull out a cup
+- Close cabinet
+- Walk to fridge
+- Open fridge door
+- Pull out pitcher of water with free hand
+- Pour into cup
+- Place pitcher back into fridge
+- Close fridge door
+- Enjoy the refreshing taste of water!
+
+
+WATCH GAME OF THRONES
+- Walk to tv remote
+- IF bedroom THEN
+	- lay on bed
+- ELSIF living room THEN
+	- lay on couch
+ENDIF
+- Turn on TV
+- Click on HBO GO App
+- Click series
+- Scroll to shows that begin with a "H"
+- Select "Game of Thrones"
+- Enjoy the greatest TV show of all time!
