@@ -1,3 +1,5 @@
+require 'benchmark'
+
 def insertionsort(array)
   i = 1
   while i < array.length
@@ -43,6 +45,10 @@ def bucketsort(array, bucket_size = 5)
   array
 end
 
-data = Array(1..100).shuffle
+data = Array(1..50).shuffle
 p "Before sort: #{data}"
-p "After sort: #{bucketsort(data)}"
+time = Benchmark.realtime do
+	bucketsort(data)
+end
+p "After sort: #{data}"
+puts "Time elapsed #{time*1000} milliseconds"

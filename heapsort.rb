@@ -1,3 +1,5 @@
+require 'benchmark'
+
 def swap(array, from, to)
   temp = array[to]
   array[to] = array[from]
@@ -54,6 +56,10 @@ def heapsort(array)
   array
 end
 
-data = Array(1..100).shuffle
+data = Array(1..50).shuffle
 p "Before sort: #{data}"
-p "After sort: #{heapsort(data)}"
+time = Benchmark.realtime do
+	heapsort(data)
+end
+p "After sort: #{data}"
+puts "Time elapsed #{time*1000} milliseconds"
